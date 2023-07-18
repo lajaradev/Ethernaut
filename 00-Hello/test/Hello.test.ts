@@ -21,6 +21,7 @@ describe("Hello", function () {
       await hello.theMethodName();
       await hello.method7123949();
       await hello.password();
+      await hello.authenticate("ethernaut0")
     });
   });
 });
